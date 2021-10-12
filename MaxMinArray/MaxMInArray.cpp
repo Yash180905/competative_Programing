@@ -38,17 +38,16 @@ int maxMinArray(int arr[], int size)
     return 0;
 }
 int main(){
-    int arr[] = {200, 191, 112, -11, 330, 60};
-   int n = 6;
+//     int arr[] = {200, 191, 112, -11, 330, 60};
+//    int n = 6;
    //when want to take input from user 
 
-// int n;
-// int arr[n];
-// std::cout<<"enter the size of array\n";
-// std::cin>>n;
-// std::cout<<"enter the elments of array\n";
-// for (int i=0;i<n;i++){std::cin>>arr[i];}
-
+int n; 
+std::cout<<"enter the size of array\n";
+std::cin>>n;
+int arr[n];
+std::cout<<"enter the elments of array\n";
+for (int i=0;i<n;i++){std::cin>>arr[i];}
 maxMinArray(arr,n);
 return 0;
 
