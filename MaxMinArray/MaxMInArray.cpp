@@ -1,7 +1,8 @@
-#include <stdio.h>
-#include <conio.h>
-#include <math.h>
+#include<stdio.h>
+#include<conio.h>
+#include<math.h>
 #include<iostream>
+// using namespace std;
 int maxMinArray(int arr[], int size)
 {
     int max = 0, min = 0;
@@ -32,17 +33,22 @@ int maxMinArray(int arr[], int size)
         }
         i++;
     }
-    std::cout << "minimum element" << min;
-    std::cout << "max elemet" << max;
+    std::cout << "minimum element " << min;
+    std::cout << "\nmax elemet " << max;
     return 0;
 }
 int main(){
-int n;
-int arr[n];
-std::cout<<"enter the size of array\n";
-std::cin>>n;
-std::cout<<"enter the elments of array\n";
-std::cin>>arr[n];
+    int arr[] = {200, 191, 112, -11, 330, 60};
+   int n = 6;
+   //when want to take input from user 
+
+// int n;
+// int arr[n];
+// std::cout<<"enter the size of array\n";
+// std::cin>>n;
+// std::cout<<"enter the elments of array\n";
+// for (int i=0;i<n;i++){std::cin>>arr[i];}
+
 maxMinArray(arr,n);
 return 0;
 
